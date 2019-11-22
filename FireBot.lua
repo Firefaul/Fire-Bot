@@ -30,7 +30,7 @@ client:on('messageCreate', function(message)
 				color = discordia.Color.fromRGB(255, 105, 97).value
 			}
 		}
-	elseif message.content:lower() == "!fire reload" and message.author.username == "Jeta // Festivefaul" then
+	elseif message.content:lower() == "!fire reload" and message.author.username == "Jeni" then
 		print('Restarting')
 		message.channel:send("Restarting...")
 		os.execute("luvit FireBot.lua")
